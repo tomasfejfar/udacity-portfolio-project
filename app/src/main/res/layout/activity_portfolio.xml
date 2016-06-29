@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="cz.tomasfejfar.tomasfejfarportfolio.Portfolio">
+    tools:context="cz.tomasfejfar.tomasfejfarportfolio.Portfolio" >
 
     <TextView
         android:layout_width="wrap_content"
@@ -27,8 +27,7 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
-        style="@android:style/TextAppearance.Material.Button"
-        android:allowUndo="false" />
+        android:onClick="sendMessage" />
 
     <Button
         android:layout_width="fill_parent"
@@ -37,8 +36,7 @@
         android:id="@+id/button2"
         android:layout_below="@+id/button"
         android:layout_alignParentEnd="true"
-        style="@android:style/TextAppearance.Material.Button"
-        android:allowUndo="false" />
+        android:onClick="sendMessage" />
 
     <Button
         android:layout_width="fill_parent"
@@ -47,8 +45,7 @@
         android:id="@+id/button3"
         android:layout_below="@+id/button2"
         android:layout_alignParentEnd="true"
-        style="@android:style/TextAppearance.Material.Button"
-        android:allowUndo="false" />
+        android:onClick="sendMessage" />
 
     <Button
         android:layout_width="fill_parent"
@@ -57,8 +54,7 @@
         android:id="@+id/button4"
         android:layout_below="@+id/button3"
         android:layout_alignParentEnd="true"
-        style="@android:style/TextAppearance.Material.Button"
-        android:allowUndo="false" />
+        android:onClick="sendMessage" />
 
     <Button
         android:layout_width="fill_parent"
@@ -67,8 +63,7 @@
         android:id="@+id/button5"
         android:layout_below="@+id/button4"
         android:layout_alignParentEnd="true"
-        style="@android:style/TextAppearance.Material.Button"
-        android:allowUndo="false" />
+        android:onClick="sendMessage" />
 
     <Button
         android:layout_width="fill_parent"
@@ -77,6 +72,5 @@
         android:id="@+id/button6"
         android:layout_below="@+id/button5"
         android:layout_alignParentStart="true"
-        style="@android:style/TextAppearance.Material.Button"
-        android:allowUndo="false" />
+        android:onClick="sendMessage" />
 </RelativeLayout>
